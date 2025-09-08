@@ -1,18 +1,15 @@
-# .upptimerc.yml
 owner: OwenICT
 repo: uptime-monitor
+
 sites:
-  - name: OwenICT hoofddomein
-    url: https://owenict.nl
-  - name: DirectAdmin panel
-    url: https://wing-of-hoatzin.vertexzone.nl:2222
-  - name: Zeta monitor endpoint
+  - name: Zeta-monitor
     url: https://zeta.owenict.nl
+  - name: DirectAdmin
+    url: https://wing-of-hoatzin.vertexzone.nl:2222
 
 status-website:
-  cname: status.owenict.nl
   name: OwenICT Status
-  theme: dark
+  theme: light
   logoUrl: https://owenict.nl/wp-content/uploads/2025/08/Logo_Primair_Compleet_Horizontaal_Owen_ICT_2000px_RGB_PNG-1.png
 
 commitMessages:
@@ -22,7 +19,6 @@ commitMessages:
   graphs: "📊 update graphs"
 
 timezone: Europe/Amsterdam
-
 assignees: []
 
 issueTemplates:
