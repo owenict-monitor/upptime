@@ -6,18 +6,25 @@ sites:
     url: https://owenict.nl
   - name: DirectAdmin panel
     url: https://wing-of-hoatzin.vertexzone.nl:2222
+  - name: Zeta monitor endpoint
+    url: https://zeta.owenict.nl
+
 status-website:
   cname: status.owenict.nl
   name: OwenICT Status
   theme: dark
   logoUrl: https://owenict.nl/wp-content/uploads/2025/08/Logo_Primair_Compleet_Horizontaal_Owen_ICT_2000px_RGB_PNG-1.png
+
 commitMessages:
   status: "📈 status update"
   summary: "📝 update summary"
   readme: "📄 update readme"
   graphs: "📊 update graphs"
+
 timezone: Europe/Amsterdam
+
 assignees: []
+
 issueTemplates:
   outage: "🚨 {NAME} is down"
   degraded: "⚠️ {NAME} is experiencing issues"
