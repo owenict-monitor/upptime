@@ -5,7 +5,7 @@ sites:
   - name: OwenICT hoofddomein
     url: https://owenict.nl
   - name: DirectAdmin panel
-    url: https://wing-of-hoatzin.vertexzone.nl:222
+    url: https://wing-of-hoatzin.vertexzone.nl:2222
 status-website:
   cname: status.owenict.nl
   name: OwenICT Status
